@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2026 Patinhas & Cia. Todos os direitos reservados.</span>
+        <span>&copy; 2026 Pedro Correia Lopes Filho. Todos os direitos reservados.</span>
         <span>Feito com <i class="fa-solid fa-heart" style="color:#ff7a59;"></i> para todos os pets do mundo.</span>
       </div>
     </div>
