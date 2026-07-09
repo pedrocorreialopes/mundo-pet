@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato | Patinhas & Cia</title>
+<meta name="description" content="Entre em contato com o Patinhas & Cia. Tire dúvidas, envie sugestões ou torne-se um parceiro.">
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/616/616408.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrapper">
+    <a href="index.html" class="logo"><i class="fa-solid fa-paw"></i>Patinhas<span class="highlight">&Cia</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="cuidados.html">Cuidados</a>
+      <a href="alimentacao.html">Alimentação</a>
+      <a href="galeria.html">Galeria de Fotos</a>
+      <a href="lojas.html">Lojas Pet</a>
+      <a href="veterinarios.html">Veterinários</a>
+      <a href="blog.html">Blog</a>
+      <a href="contato.html" class="active">Contato</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="galeria.html#upload" class="btn btn-secondary"><i class="fa-solid fa-camera"></i>&nbsp; Enviar Foto</a>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Início</a> <span>/</span> <span>Contato</span></div>
+    <h1>Fale com a gente 💌</h1>
+    <p>Dúvidas, sugestões ou quer ser um parceiro? Estamos aqui para ajudar!</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="align-items:flex-start; gap:50px;">
+      <!-- FORM -->
+      <div class="reveal">
+        <div class="upload-panel" style="margin:0; max-width:none;">
+          <h2 style="margin-bottom:24px;">Envie sua mensagem</h2>
+          <form id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="c_name">Nome *</label>
+                <input type="text" id="c_name" name="name" placeholder="Seu nome completo" required>
+              </div>
+              <div class="form-group">
+                <label for="c_email">E-mail *</label>
+                <input type="email" id="c_email" name="email" placeholder="seuemail@exemplo.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="c_subject">Assunto *</label>
+              <select id="c_subject" name="subject" required>
+                <option value="">Selecione um assunto</option>
+                <option value="Dúvida geral">Dúvida geral</option>
+                <option value="Sugestão de conteúdo">Sugestão de conteúdo</option>
+                <option value="Parceria de loja">Parceria de loja</option>
+                <option value="Parceria veterinária">Parceria veterinária</option>
+                <option value="Outro">Outro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="c_message">Mensagem *</label>
+              <textarea id="c_message" name="message" placeholder="Escreva sua mensagem aqui..." required style="min-height:140px;"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-paper-plane"></i>&nbsp; Enviar mensagem</button>
+            <div class="form-message"></div>
+          </form>
+        </div>
+      </div>
+
+      <!-- INFO -->
+      <div class="reveal">
+        <span class="section-tag"><i class="fa-solid fa-address-card"></i> Informações de contato</span>
+        <h2 class="section-title">Estamos sempre por aqui</h2>
+        <p style="opacity:0.8; margin-bottom:30px;">Nossa equipe responde em até 48 horas úteis. Para parcerias comerciais, utilize o assunto específico no formulário.</p>
+
+        <ul class="checklist" style="margin-bottom:30px;">
+          <li><i class="fa-solid fa-location-dot"></i><div><strong>Endereço</strong><p>Av. dos Pets, 123 — São Paulo, SP — Brasil</p></div></li>
+          <li><i class="fa-solid fa-phone"></i><div><strong>Telefone</strong><p>(11) 4002-8922</p></div></li>
+          <li><i class="fa-solid fa-envelope"></i><div><strong>E-mail</strong><p>contato@patinhasecia.com.br</p></div></li>
+          <li><i class="fa-solid fa-clock"></i><div><strong>Horário de atendimento</strong><p>Segunda a sexta, das 9h às 18h</p></div></li>
+        </ul>
+
+        <div class="footer-social" style="gap:14px;">
+          <a href="#" style="background:#fdf1e7; color:var(--color-primary-dark);" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" style="background:#fdf1e7; color:var(--color-primary-dark);" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" style="background:#fdf1e7; color:var(--color-primary-dark);" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#" style="background:#fdf1e7; color:var(--color-primary-dark);" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+        <div class="map-embed mt-40" style="height:260px;">
+          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-46.6600%2C-23.5700%2C-46.6300%2C-23.5500&layer=mapnik" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ RÁPIDO -->
+<section class="section section-alt">
+  <div class="container" style="max-width:800px;">
+    <div class="section-header reveal">
+      <span class="section-tag"><i class="fa-solid fa-circle-question"></i> Perguntas Frequentes</span>
+      <h2 class="section-title">Antes de nos enviar uma mensagem</h2>
+    </div>
+    <div class="accordion reveal">
+      <div class="accordion-item open">
+        <div class="accordion-header">Como posso cadastrar minha loja pet no site? <i class="fa-solid fa-chevron-down"></i></div>
+        <div class="accordion-body" style="max-height:200px;"><p>Envie uma mensagem pelo formulário selecionando o assunto "Parceria de loja" com os detalhes do seu estabelecimento.</p></div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header">Sou veterinário(a), como posso ser listado no site? <i class="fa-solid fa-chevron-down"></i></div>
+        <div class="accordion-body"><p>Selecione o assunto "Parceria veterinária" no formulário de contato e nossa equipe entrará em contato com os próximos passos.</p></div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header">Posso sugerir temas para o blog? <i class="fa-solid fa-chevron-down"></i></div>
+        <div class="accordion-body"><p>Sim! Adoramos sugestões da comunidade. Use o assunto "Sugestão de conteúdo" e conte sua ideia.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="footer-include"></footer>
+<button class="back-to-top" aria-label="Voltar ao topo"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/main.js"></script>
+<script src="js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lojas de Artigos Pet | Patinhas & Cia</title>
+<meta name="description" content="Encontre as melhores lojas de artigos para animais de estimação: rações, acessórios, brinquedos e muito mais.">
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/616/616408.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrapper">
+    <a href="index.html" class="logo"><i class="fa-solid fa-paw"></i>Patinhas<span class="highlight">&Cia</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="cuidados.html">Cuidados</a>
+      <a href="alimentacao.html">Alimentação</a>
+      <a href="galeria.html">Galeria de Fotos</a>
+      <a href="lojas.html" class="active">Lojas Pet</a>
+      <a href="veterinarios.html">Veterinários</a>
+      <a href="blog.html">Blog</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="galeria.html#upload" class="btn btn-secondary"><i class="fa-solid fa-camera"></i>&nbsp; Enviar Foto</a>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Início</a> <span>/</span> <span>Lojas Pet</span></div>
+    <h1>As melhores lojas para seu pet 🛍️</h1>
+    <p>Rações premium, brinquedos, acessórios e tudo que seu bichinho precisa, avaliado por tutores reais.</p>
+  </div>
+</section>
+
+<!-- FILTROS -->
+<section class="section">
+  <div class="container">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-store-filter="all">Todas</button>
+      <button class="filter-btn" data-store-filter="racao">Ração & Alimentos</button>
+      <button class="filter-btn" data-store-filter="acessorios">Acessórios</button>
+      <button class="filter-btn" data-store-filter="banho">Banho & Tosa</button>
+      <button class="filter-btn" data-store-filter="online">Loja Online</button>
+    </div>
+
+    <div class="grid-3" id="stores-grid">
+
+      <div class="store-card reveal" data-cat="racao acessorios">
+        <div class="store-img">
+          <span class="store-badge">Física & Online</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=F4KdG4yhapLpNlCDlOSedR0D6UDLQmHxCVWH5CZ1S3uj5fW%2FHhRFvbPKZ1lvMpMTmWIaYIPPCTULzb5Fg7%2F6OuJ5qU%2Bts5u57mc%3D&u2=RvgGotBxNcqHIaBk&width=2560" alt="Loja de animais">
+        </div>
+        <div class="store-body">
+          <h3>Mundo Animal Pet Shop</h3>
+          <div class="store-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>4.7 (320)</span></div>
+          <div class="store-tags"><span>Ração Premium</span><span>Brinquedos</span><span>Exóticos</span></div>
+          <p class="desc">Ampla variedade de rações premium e acessórios para cães, gatos e pets exóticos.</p>
+          <div class="store-footer"><span><i class="fa-solid fa-location-dot"></i> São Paulo, SP</span><a href="#">Ver loja →</a></div>
+        </div>
+      </div>
+
+      <div class="store-card reveal" data-cat="banho acessorios">
+        <div class="store-img">
+          <span class="store-badge">Física</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=94rxn8ax3p6nR1cB0OZDeSEWpmyCLIL6OFPb6YbuJbjrB1KcNYlUG8Exyezxgxns%2BxtyNcMTYvwA5IFfH7%2Bc1usnMMRVsBIAAJfnw23o62KPbi0csXaULIkGozpDD1p%2Fiv3%2FCcZnjCwCSxLoO9nlPHWo92KfKlX%2BaA%3D%3D&u2=uyIppB0L50M8KRRQ&width=2560" alt="Pet shop com banho e tosa">
+        </div>
+        <div class="store-body">
+          <h3>Amigo Fiel Pet Center</h3>
+          <div class="store-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><span>4.3 (180)</span></div>
+          <div class="store-tags"><span>Banho & Tosa</span><span>Produtos Importados</span></div>
+          <p class="desc">Banho e tosa de qualidade, produtos importados e consultoria nutricional gratuita.</p>
+          <div class="store-footer"><span><i class="fa-solid fa-location-dot"></i> Belo Horizonte, MG</span><a href="#">Ver loja →</a></div>
+        </div>
+      </div>
+
+      <div class="store-card reveal" data-cat="online racao">
+        <div class="store-img">
+          <span class="store-badge">Online</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=c%2F8DwuTv86HOHYeW6dCtpuUQvAlRWh8UuldXFyulZ3b9t7GZXhXTjb1vIm56ogyDJ3LSguz6eYOTEHUpNTAMOj5DMYM0SdCCmnO4zefnt24%3D&u2=aIbu%2BkSS%2BCuDJaOD&width=2560" alt="Loja online de pets">
+        </div>
+        <div class="store-body">
+          <h3>Patas Express</h3>
+          <div class="store-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span>4.9 (540)</span></div>
+          <div class="store-tags"><span>Entrega Rápida</span><span>Assinatura Mensal</span></div>
+          <p class="desc">Loja 100% online com entrega em todo o Brasil e clube de assinatura de ração.</p>
+          <div class="store-footer"><span><i class="fa-solid fa-truck"></i> Entrega Nacional</span><a href="#">Ver loja →</a></div>
+        </div>
+      </div>
+
+      <div class="store-card reveal" data-cat="acessorios racao">
+        <div class="store-img">
+          <span class="store-badge">Física & Online</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=HD4XQKTxu2MV70EuhsVdAemT2mXafOuQQ0%2Ftk8mv69dk81BmyhDgOYBqgcvHwE6JJfOHwUks2OC9TeQ%2FdDENs%2BFi2A%3D%3D&u2=MinujdE1YZegMG1v&width=2560" alt="Comedouro pet">
+        </div>
+        <div class="store-body">
+          <h3>Cobasi Vida & Cia</h3>
+          <div class="store-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><span>4.5 (890)</span></div>
+          <div class="store-tags"><span>Grandes Marcas</span><span>Farmácia Pet</span></div>
+          <p class="desc">Rede completa com farmácia veterinária e as melhores marcas do mercado nacional.</p>
+          <div class="store-footer"><span><i class="fa-solid fa-location-dot"></i> Várias cidades</span><a href="#">Ver loja →</a></div>
+        </div>
+      </div>
+
+      <div class="store-card reveal" data-cat="banho">
+        <div class="store-img">
+          <span class="store-badge">Física</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=VQxTsnMC00L6RaAx1G7hYk1b8nShiROS9glQ%2BoKRsGBOzsmC%2BnlGSORAQ1XGbX%2BZCN1n8EgxYd68YepT33bMd4t28PbggOqc4sQ%2FIZ%2Bx69QM&u2=7Cv31vwV3Qaz2BXh&width=2560" alt="Banho de cachorro">
+        </div>
+        <div class="store-body">
+          <h3>Spa Pet Glamour</h3>
+          <div class="store-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span>4.8 (275)</span></div>
+          <div class="store-tags"><span>Spa Day</span><span>Hidratação</span></div>
+          <p class="desc">Experiência de spa completa com hidratação, tosa na tesoura e day care.</p>
+          <div class="store-footer"><span><i class="fa-solid fa-location-dot"></i> Curitiba, PR</span><a href="#">Ver loja →</a></div>
+        </div>
+      </div>
+
+      <div class="store-card reveal" data-cat="online acessorios">
+        <div class="store-img">
+          <span class="store-badge">Online</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=zFB4smDi68uuIK9B585Es0U1DbNvQ0QgjD7ueHiji4hAMydTAtlUR%2B8CYiWW7hq8HZeA7lH7l6I4Sr%2FxEcnwQzUS5aToL21n1fgO6VUbKEtEVqpjnoh5GQ%3D%3D&u2=Z5yRSVvnHqJvMaIu&width=2560" alt="Produtos personalizados pet">
+        </div>
+        <div class="store-body">
+          <h3>Petit Personalizados</h3>
+          <div class="store-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><span>4.4 (98)</span></div>
+          <div class="store-tags"><span>Personalizados</span><span>Presentes</span></div>
+          <p class="desc">Coleiras, camas e produtos personalizados com o nome do seu pet.</p>
+          <div class="store-footer"><span><i class="fa-solid fa-truck"></i> Entrega Nacional</span><a href="#">Ver loja →</a></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA PARCEIRO -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="newsletter-section reveal" style="background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));">
+      <div class="newsletter-text">
+        <h2>Tem uma loja pet e quer aparecer aqui?</h2>
+        <p>Cadastre seu estabelecimento e alcance milhares de tutores em busca dos melhores produtos.</p>
+      </div>
+      <a href="contato.html" class="btn btn-outline-light">Quero ser parceiro <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="footer-include"></footer>
+<button class="back-to-top" aria-label="Voltar ao topo"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/main.js"></script>
+<script src="js/footer.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('[data-store-filter]');
+    const cards = document.querySelectorAll('#stores-grid .store-card');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-store-filter');
+        cards.forEach(card => {
+          const cats = card.getAttribute('data-cat') || '';
+          card.style.display = (filter === 'all' || cats.includes(filter)) ? '' : 'none';
+        });
+      });
+    });
+  });
+</script>
+</body>
+</html>

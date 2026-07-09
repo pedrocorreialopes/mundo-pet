@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Pet | Patinhas & Cia</title>
+<meta name="description" content="Artigos e dicas sobre o universo pet: saúde, comportamento, alimentação e curiosidades sobre animais de estimação.">
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/616/616408.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrapper">
+    <a href="index.html" class="logo"><i class="fa-solid fa-paw"></i>Patinhas<span class="highlight">&Cia</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="cuidados.html">Cuidados</a>
+      <a href="alimentacao.html">Alimentação</a>
+      <a href="galeria.html">Galeria de Fotos</a>
+      <a href="lojas.html">Lojas Pet</a>
+      <a href="veterinarios.html">Veterinários</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="galeria.html#upload" class="btn btn-secondary"><i class="fa-solid fa-camera"></i>&nbsp; Enviar Foto</a>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Início</a> <span>/</span> <span>Blog</span></div>
+    <h1>Blog Patinhas & Cia 📝</h1>
+    <p>Artigos, dicas e curiosidades escritos com carinho para tutores que querem o melhor para seus pets.</p>
+  </div>
+</section>
+
+<!-- FILTRO DE CATEGORIA -->
+<section class="section">
+  <div class="container">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-blog-filter="all">Todos</button>
+      <button class="filter-btn" data-blog-filter="Alimentação">Alimentação</button>
+      <button class="filter-btn" data-blog-filter="Cuidados">Cuidados</button>
+      <button class="filter-btn" data-blog-filter="Comportamento">Comportamento</button>
+      <button class="filter-btn" data-blog-filter="Curiosidades">Curiosidades</button>
+    </div>
+
+    <!-- ARTIGO DESTAQUE -->
+    <div class="reveal" style="background:#fff; border-radius: var(--radius-lg); overflow:hidden; box-shadow: var(--shadow-soft); display:grid; grid-template-columns: 1fr 1fr; margin-bottom: 50px;">
+      <img src="https://sspark.genspark.ai/cfimages?u1=xfT9%2BGqGyPNriO1lpZeAm9UWdaVtCVacfB%2BpuslV0xZw7QPglD3wZo%2B%2BIbXcarPtF8ZoUunEa3pYkT0ydJgdrBah2mypWDbX25i%2FLFJHZEJKsChxIbKvdNg4d3TgvVnXP%2FltMU6yrB8XqDZwXaWtPA%3D%3D&u2=v%2BEaTKGmdeoj1Sox&width=2560" alt="Cachorro feliz" style="width:100%; height:100%; object-fit:cover;">
+      <div style="padding:40px; display:flex; flex-direction:column; justify-content:center;">
+        <span class="article-category" style="position:static; align-self:flex-start; margin-bottom:16px; background:#fdf1e7;">Destaque</span>
+        <h2 style="font-size:1.7rem; margin-bottom:14px;">10 sinais de que seu pet é o mais feliz do bairro</h2>
+        <p style="opacity:0.75; margin-bottom:20px;">Descubra os comportamentos que indicam bem-estar emocional e físico em cães e gatos, segundo especialistas em comportamento animal.</p>
+        <a href="#" class="btn btn-primary" style="align-self:flex-start;">Ler artigo completo</a>
+      </div>
+    </div>
+
+    <div class="grid-3" id="blog-grid">
+      <article class="article-card reveal" data-cat="Alimentação">
+        <div class="article-img">
+          <span class="article-category">Alimentação</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=LPmWaueg7xZdYvvQFo272e3yITuwefs2fpDTDuL1mfgiKOPywwRaPF8br7YW0WtQt%2B4WzEua6vI2uLId7H3nPCqzAEOzEnjQkdzfGwBJVF4IGZscgHQ4%2F5HX3aKF91Xqi0D8L48WtpHw%2FccjdATL4pGluVLNRMUJEuOYp9Q%3D&u2=o8kg9%2B7H72uDWMrw&width=2560" alt="Ração para cachorro">
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span><i class="fa-regular fa-calendar"></i> 02 Jul 2026</span><span><i class="fa-regular fa-clock"></i> 6 min</span></div>
+          <h3>Como escolher a ração ideal para cada fase da vida do seu cão</h3>
+          <p>Entenda as diferenças entre rações filhote, adulto e sênior e evite erros comuns na hora de alimentar seu pet.</p>
+          <a href="#" class="article-link">Ler artigo <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="article-card reveal" data-cat="Cuidados">
+        <div class="article-img">
+          <span class="article-category">Cuidados</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=EX5ztRbQ8HpjisE1hIP8FmElgYvDnLPbyXHwpThV39OsgbBl4gGZFZ%2Fdg3Ejkz6vReb52H4UEKXEbE3u4TGA5%2FCb2v1nMThJkoyiRKLA5ol7tIFZmBlG4yEExymtVgHi2gvxRgb7G%2FlMvs6%2F44KnKgtbhpdPuwnpw%2F4dNCFDcygN4LTWrWyeIWMsppSOG0j5i33zRgyIZuU0Nv0h%2FLD7gFbWQt%2F88rKFdSb1QQIz9%2BKao%2Bws1QIuH4wJwKVX4MZV30RKA3cWm2QOZbhYcLEWJBaPoZ%2FglY0DDFBAQ88vDVABGiO3QJRv6w%3D%3D&u2=AkSqY4sMOUY0J6gw&width=2560" alt="Veterinário com filhote">
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span><i class="fa-regular fa-calendar"></i> 28 Jun 2026</span><span><i class="fa-regular fa-clock"></i> 8 min</span></div>
+          <h3>Calendário de vacinas: o guia completo para filhotes</h3>
+          <p>Saiba quais vacinas são essenciais e em qual idade aplicá-las para proteger seu pet desde os primeiros meses.</p>
+          <a href="#" class="article-link">Ler artigo <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="article-card reveal" data-cat="Comportamento">
+        <div class="article-img">
+          <span class="article-category">Comportamento</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=8Pa7UhY%2FRORowLf751ScoJFmsFSRDoobka0iUqnOsYGPETU%2F9rjiK5%2BH3MGGOfwKDGD%2Fwe%2Fh%2BnP7EphjYaQLjuFzRIP96ppP1bcrKi2mOZs7q8xcr2YbNMkw9MPPJ36hN%2BE%2B1rBgX%2FDpDiNSnN4EaMsUsOjSyGsAlQ%3D%3D&u2=dcvxObyhn7IpVInp&width=2560" alt="Cachorro correndo no parque">
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span><i class="fa-regular fa-calendar"></i> 20 Jun 2026</span><span><i class="fa-regular fa-clock"></i> 5 min</span></div>
+          <h3>5 sinais de que seu pet precisa de mais exercícios</h3>
+          <p>Descubra como identificar o tédio e a falta de atividade física antes que se tornem problemas de comportamento.</p>
+          <a href="#" class="article-link">Ler artigo <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="article-card reveal" data-cat="Curiosidades">
+        <div class="article-img">
+          <span class="article-category">Curiosidades</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=b%2FAe673erp5NfBueOI8NA3f2glTJEQgnGObd9rsRkAOTXtVoOT9iUDm3nPJfSxKqmJKtv1oqm9mqJFDHZx0A6kHOI7O8opXGGuFKX5X%2BoX6A&u2=mrVJ0a1W2FtTNbvb&width=2560" alt="Papagaio colorido">
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span><i class="fa-regular fa-calendar"></i> 15 Jun 2026</span><span><i class="fa-regular fa-clock"></i> 4 min</span></div>
+          <h3>7 curiosidades sobre papagaios que você não sabia</h3>
+          <p>Esses pets exóticos são muito mais inteligentes do que imaginamos. Conheça fatos surpreendentes!</p>
+          <a href="#" class="article-link">Ler artigo <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="article-card reveal" data-cat="Cuidados">
+        <div class="article-img">
+          <span class="article-category">Cuidados</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=VQxTsnMC00L6RaAx1G7hYk1b8nShiROS9glQ%2BoKRsGBOzsmC%2BnlGSORAQ1XGbX%2BZCN1n8EgxYd68YepT33bMd4t28PbggOqc4sQ%2FIZ%2Bx69QM&u2=7Cv31vwV3Qaz2BXh&width=2560" alt="Banho e tosa">
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span><i class="fa-regular fa-calendar"></i> 10 Jun 2026</span><span><i class="fa-regular fa-clock"></i> 7 min</span></div>
+          <h3>Banho em casa: o passo a passo perfeito para não estressar seu pet</h3>
+          <p>Aprenda técnicas profissionais para dar banho no seu pet sem sustos e com muito carinho.</p>
+          <a href="#" class="article-link">Ler artigo <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="article-card reveal" data-cat="Alimentação">
+        <div class="article-img">
+          <span class="article-category">Alimentação</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=vQrqEI2gh3XY9DYQU3nAolJFaKdu%2BJPo67VA3P4IguxCdBLRE0HOChT1EhIG72489VIHmc0M5Rx4r1sbWw2fi4tB5km3ajOMaf00wm%2Fljuh7dX0hycYFcH8VXHiXU0AGJ54kJLUFHw5WRz1ypmxQIz30aSacMMK7Z9xMrlZ8GRPLf8GPI6AWce%2BADlmeXJdZl3ozQFHRKuA8PkBUBrIG91goHFbBScyncQjrYqXPYLT5DbgwZnk9dxUus4PZ7dAJVhlf8K4jlAsSaJHNZ7LzEtPK3hMUqXAxXTu5BNrPAVw9ka41t7bHly%2BP7%2BoxAt10uz8eeEg8UQaBNjJpnfmygSzC2mmxe8Ca%2FzsaLDSQKCVJThCP8otPGROOSJg2B9xVZEJ6XeH11AmUnDY%3D&u2=4lGNN0SnjPXDR75D&width=2560" alt="Gata siamesa">
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span><i class="fa-regular fa-calendar"></i> 05 Jun 2026</span><span><i class="fa-regular fa-clock"></i> 6 min</span></div>
+          <h3>Gatos e lactose: por que o leite pode fazer mal ao seu felino</h3>
+          <p>Entenda a intolerância à lactose em gatos adultos e quais alternativas são seguras oferecer.</p>
+          <a href="#" class="article-link">Ler artigo <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="article-card reveal" data-cat="Comportamento">
+        <div class="article-img">
+          <span class="article-category">Comportamento</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=jsith8hIYUBe6fj%2B2%2FjcPJPipQTHCb26doXqovzdj3eM9bv7ncqXtOuhyf2L1ey85z7Tllt3JPaXn51VWAr2hdF69G3sSYrQFUmNjVXFAE7Tluq1qNJPovkzNv8JsoDmJXo7aZWxl6F4Y6oFMuUqsnZ6BZUe1PVhFBE8TYk8HqqkFF3d%2Buy7%2Ft%2BGMheN1irJoGF8z3jv8de323lIm9KBqOo3wKzZU8WVfYqVFrCoLFhRbaGFfJI9rryu7BREiIVSB04Cpcz1zZhzQB09l%2BmzaB8wSWF%2FK5xmda9%2FlIUACqkmilAQTcbXQPQO5DhmkAJwgqrqvZaHYAqr%2Ft%2B4Bm8WGlp4m0NgBMPXdmRMiDFE%2BvhSSfJWeyPaxzZJlnL%2BOI94LqeWCqi4%2Fkh%2BK4%2FXZ8HwW51lMfRlhfGStX7dNqJ6C2eEDxQLqs04Y8ukblZj5NLTCNXDS7Bc5OrEaLRlHBuj32w1u%2FCbQQ1TjU76msXRkRm8qzgmBdOgFzGCAA9wMKWz1wIGaDJVd4z3mHdwVuWjtWbOmDMDnYLDO6q8AUSnYlD98vcmba8wS9xFaHNGKChBBiFgJaZeyYPohnlq1twKpemVDaQxye3KvYzHmBJNyR%2BA1tAFThx8ZSE4xUvYEg%3D%3D&u2=AXSRb74r12IZgCyJ&width=2560" alt="Cachorro brincando">
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span><i class="fa-regular fa-calendar"></i> 01 Jun 2026</span><span><i class="fa-regular fa-clock"></i> 5 min</span></div>
+          <h3>Como apresentar um novo pet aos animais que já moram em casa</h3>
+          <p>Dicas práticas para uma introdução tranquila e evitar conflitos entre os bichinhos da família.</p>
+          <a href="#" class="article-link">Ler artigo <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="article-card reveal" data-cat="Curiosidades">
+        <div class="article-img">
+          <span class="article-category">Curiosidades</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=TYcOppIRsbtR2xRKBYBKzA9CoX9lXTwWTmCOrLO9CY0pnAtL9wKorCiYhG6ddqfzNA4FDFex%2FzdRasIagnC6jjauG98kKqDf%2BhOU2155&u2=ThpjIv3%2Fg3UUq30c&width=2560" alt="Hamster">
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span><i class="fa-regular fa-calendar"></i> 28 Mai 2026</span><span><i class="fa-regular fa-clock"></i> 3 min</span></div>
+          <h3>Por que hamsters guardam comida nas bochechas?</h3>
+          <p>Um comportamento instintivo fascinante que remonta aos ancestrais selvagens desses pequenos roedores.</p>
+          <a href="#" class="article-link">Ler artigo <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="article-card reveal" data-cat="Cuidados">
+        <div class="article-img">
+          <span class="article-category">Cuidados</span>
+          <img src="https://sspark.genspark.ai/cfimages?u1=y8Ct1Opg9NoDJV08dm32ruNMfVeCT4%2Fmnj9iMpD7GqnqCGwRSQg%2BM3obOlllPNgNDISJm%2BMqKbfy9Al2PVuSGRo0Podrf3PfBNqutrZ9H1JGFtuAXbgiFF59eG%2FbBA%3D%3D&u2=5Qqy3SQAIBZLRH%2By&width=2560" alt="Cachorro idoso">
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span><i class="fa-regular fa-calendar"></i> 20 Mai 2026</span><span><i class="fa-regular fa-clock"></i> 7 min</span></div>
+          <h3>Cuidados especiais para pets na terceira idade</h3>
+          <p>Como adaptar a rotina e o ambiente para garantir conforto e qualidade de vida aos pets mais velhos.</p>
+          <a href="#" class="article-link">Ler artigo <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="newsletter-section reveal">
+      <div class="newsletter-text">
+        <h2>Não perca nenhum artigo novo</h2>
+        <p>Assine nossa newsletter e receba conteúdo exclusivo sobre o mundo pet direto no seu e-mail.</p>
+      </div>
+      <form class="newsletter-form js-newsletter-form">
+        <input type="email" placeholder="Seu melhor e-mail" required>
+        <button type="submit" class="btn btn-primary">Inscrever-se</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="footer-include"></footer>
+<button class="back-to-top" aria-label="Voltar ao topo"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/main.js"></script>
+<script src="js/footer.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('[data-blog-filter]');
+    const cards = document.querySelectorAll('#blog-grid .article-card');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-blog-filter');
+        cards.forEach(card => {
+          const cat = card.getAttribute('data-cat') || '';
+          card.style.display = (filter === 'all' || cat === filter) ? '' : 'none';
+        });
+      });
+    });
+  });
+</script>
+</body>
+</html>
